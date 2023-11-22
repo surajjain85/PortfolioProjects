@@ -1,0 +1,20 @@
+About this project
+
+Project Description:
+Goals: The objective of this project was to dissect and understand the intricacies of absenteeism across the company. By analyzing various factors such as BMI, educational background, seasonal changes, and family obligations, the goal was to uncover hidden patterns and actionable insights that could inform human resources policies and support employee well-being.
+
+Business Needs: Absenteeism has a multifaceted impact on business operations, affecting productivity and financial performance. The business needed to identify the primary drivers behind absenteeism to tailor wellness initiatives, manage resources efficiently, and improve overall employee satisfaction. The dashboard was developed as a means to provide a clear, data-driven foundation for these strategic initiatives.
+
+Discovery and Presentation of Insights: To unearth the insights needed, the project employed a comprehensive analytics approach:
+
+Data Aggregation: Data from various HR systems were aggregated to provide a holistic view of absenteeism.
+Pattern Recognition: Advanced analytics techniques were used to identify patterns and correlations within the data.
+Visualization: Key metrics were visualized through intuitive graphs and charts, making complex data accessible at a glance.
+The dashboard reveals:
+
+A nuanced view of how absenteeism is distributed among employees of different educational backgrounds and body mass indexes.
+Seasonal and weekly trends that highlight when employees are most likely to be absent, aiding in proactive planning.
+The most common reasons for absenteeism, offer a starting point for addressing these issues directly.
+Each insight is not just presented; it is contextualized with comparisons and trend analyses, providing a narrative that guides HR leaders in decision-making. For instance, the scatter plot correlating workload and transportation expenses with absenteeism suggests that logistical and job stress-related factors significantly contribute to absenteeism rates.
+
+Through this project, the company is better positioned to implement targeted interventions, from health promotion to commute assistance, ultimately fostering a supportive work environment that can help reduce absenteeism.
