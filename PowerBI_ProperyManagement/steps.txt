@@ -1,0 +1,16 @@
+Steps to create the dashboard:
+1. get Data
+2. remove unwanted columns like Zipcode to sqft_loft15
+3. Add columns like for Bedroom --> 3 Bedroom(s), floor, waterfront --> 1 for Yes, 0 for No
+4, create custome column "Interval= Yr_renovated - Yr_built" and new colum renovation "is greater than 0" = renovated, else not renovated
+5. check and update all the columns datatype.
+6. rename the table to fact table and right click duplicate
+7. now create the dimension tables-->Dim_location, Bedroom, Floors, RenovationStatus, waterfront, condition status
+8. now on Dom_location --> remove all other columns except Location --> now delete duplicates
+9. now on the dim_Location create new Index cloum as Location Id
+10. repeat the steps for other Dom tables--
+11. Now we have to give the relationship--> go to the Fact table--> Merge quesries
+12. Now for the Dim_location --> select dim_location table "remove"-- prefix check and select the Location_id
+13. now remove the Location colum from the Fact Table
+14. do it for all other Dim_tables
+14.
